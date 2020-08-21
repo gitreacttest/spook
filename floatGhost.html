@@ -3,6 +3,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="floatGhost.css">
+<link rel="stylesheet" type="text/css" href="waves.css">
 <style>
     
     .popup-button {
@@ -104,5 +105,21 @@
     <ellipse fill="#EF3D23" cx="61.128" cy="19.872" rx="49.25" ry="8.916"/>
         </svg></p>
     </div>
+
+        <!--Waves Container-->
+    <div>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="0" y="0" fill="rgba(255,154,0,1" />
+                <use xlink:href="#gentle-wave" x="50" y="3" fill="rgba(9,254,0,1)" />
+                <use xlink:href="#gentle-wave" x="75" y="7" fill="rgba(0,0,0,1)" />
+                <use xlink:href="#gentle-wave" x="150" y="5" fill="rgba(201,0,255,1)" />
+            </g>
+        </svg>
+    </div>
+    <!--Waves end-->
 </body>
 </html> 
